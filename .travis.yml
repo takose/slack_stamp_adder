@@ -1,12 +1,6 @@
 language: ruby
-<<<<<<< HEAD
 rvm:
 - 2.3.0
 - 2.2.4
 script: 
  - p "hoge"
-=======
-rvm :
- - 2.2.1
-
->>>>>>> c2ba292f2a133a7af192b730752d3551d477bd9e
