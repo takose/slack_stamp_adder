@@ -1,13 +1,15 @@
 language: node_js
 node_js:
-- "6"
-- "6.1"
-- "5.11"
-- "iojs"
-install:
-- npm install git+https://github.com/obscurerichard/emojipacks.git#env-config
+- '6'
+- '6.1'
+- '5.11'
+- iojs
+script:
+- export SLACK_SUBDOMAIN=[secure]
+- export SLACK_EMAIL=[secure]
+- export SLACK_PASSWORD=[secure]
+- export SLACK_EMOJIPACK=emojis.yaml
+- node_modules/emojipacks/bin/emojipacks
 env:
   global:
-    secure: bY1G6r6wh8079JJQ76Ypkqu370CsMCaGXOLk9aRH0Xnm8e8e+2UyEGk/dmgFDZ+fhAW3ysSSZXquyYVx5n7ilrkR2Zy6VG5n8a8Lfn5M2Xp7T1f8biR+TKO+XYsBam8L9Wh6sL5oqH4U0iA8uccokE2L2UM7YHaVn+D1gvlxd5DA6XB3PIyj9pQLpRh7L6Sogdu762nSgv42X7uJU4MyWzR9/rqnqXHP1VxlyxoCy77rlkyss1rCqzRro52g5VRiSzYf9CT2YWtEI5vf+Ik+BfEhtwWIIz0H9PzwRLN/A65G0DMIVCggVemJMu94BJa2joTNFtFZE5GTGEAUsArqz0ikzr7hmS3x1E+BTOhk4YuyWrgj8lXgQcGLibocOyMXCw/3NiiOJxMT6LgjffFovWyUhAzUsXGbL4ET6UaKfeXOzIa3brkNrOjvwaChxIlqjchhtSgGqdrnRNXmtX3UO0PsNxXaeOKBbAc1+fTTECyn9txi7aKMoMgoqJ6s+U4O0705VLIv8b7TQAGRaMsqjTFLjFx5JnQ1ImMjabx0Df4+fTG/nN0Osnp/EYDMx3OD9pNKztLZn8wXQqXQlkTSLfTh/6xiO4qznPCVxJjkNyCOxzw1pk9CmuTIgbS8R+7OUXb2gUqXxK+7Hk1BVj2K2hGCz6gX+jAxu+Vo9K+zGcQ=
-script:
-- emojipacks
+    secure: DU9pJvd4ZcFVtp3wG49twrZ+BfQrQ194Y96syV2sAvYQXTP639Y/fWH2Z6oUh5YdAJXnF6NQEU+2hXxozK6u/TvqPCTjgrAnSHzJaraMwiPl/aVEAZci6eTfUPGilve9BHahrFWSuLbsxm0zzTamXS0zFNi3hMQH5NdPsQjHz1xFZ+KPORD/ZA4gtNcTcv1vE3VzpA1Y+s/rGWDmnGFlud+z7yKY4nwCIsNLzE0v6zudCfYNTC0++ix2asRLmax59pHP54w1qCtVviOezLdYw4yQ4tjAd9h+ti/kh0HbfQxnUgOcPP15Zhz5/u2QOdmYbyxAQer/a7P/xTcTJIpK1EAMbYd10YeHx3j50bMWmccDjGsfSRzFopU988CN4Zkj0iX1JBpj+EstrCDx/b8gKRCyIKhR9fVAS/Lv3ByMx/udd1kvOPk+b6obsik46u0LH5b+12iw3WY87+grOgWDaEqxSbVmSLjPTQgX5jpH5M6N9w2LOTtbMqIsPKzxrA9w+qTg9aBIDc8lHSh/NB507++c1v3UYis9a/ZE8zKfHj+5kb+LKpZbVSjLGqSjJxmdUbSRndNYfm3rZVeocIcg5VE1IHcGrc5QW7rMWpoO8m0Aysq2UDBcZeWc2OKK4X+/ZCLhLDeRqtuXjG46X6w4n+6J/BuMvuRAHM1RQ5bUo+c=
