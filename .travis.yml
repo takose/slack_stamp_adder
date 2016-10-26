@@ -5,9 +5,9 @@ node_js:
 - '5.11'
 - iojs
 script:
-- export SLACK_SUBDOMAIN=[secure]
-- export SLACK_EMAIL=[secure]
-- export SLACK_PASSWORD=[secure]
+- export SLACK_SUBDOMAIN=$SLACK_SUBDOMAIN
+- export SLACK_EMAIL=$SLACK_EMAIL
+- export SLACK_PASSWORD=$SLACK_PASSWORD
 - export SLACK_EMOJIPACK=emojis.yaml
 - node --harmony node_modules/emojipacks/bin/emojipacks
 env:
