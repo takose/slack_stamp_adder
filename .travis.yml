@@ -9,7 +9,7 @@ script:
 - export SLACK_EMAIL=[secure]
 - export SLACK_PASSWORD=[secure]
 - export SLACK_EMOJIPACK=emojis.yaml
-- node_modules/emojipacks/bin/emojipacks
+- node --harmony node_modules/emojipacks/bin/emojipacks
 env:
   global:
     secure: DU9pJvd4ZcFVtp3wG49twrZ+BfQrQ194Y96syV2sAvYQXTP639Y/fWH2Z6oUh5YdAJXnF6NQEU+2hXxozK6u/TvqPCTjgrAnSHzJaraMwiPl/aVEAZci6eTfUPGilve9BHahrFWSuLbsxm0zzTamXS0zFNi3hMQH5NdPsQjHz1xFZ+KPORD/ZA4gtNcTcv1vE3VzpA1Y+s/rGWDmnGFlud+z7yKY4nwCIsNLzE0v6zudCfYNTC0++ix2asRLmax59pHP54w1qCtVviOezLdYw4yQ4tjAd9h+ti/kh0HbfQxnUgOcPP15Zhz5/u2QOdmYbyxAQer/a7P/xTcTJIpK1EAMbYd10YeHx3j50bMWmccDjGsfSRzFopU988CN4Zkj0iX1JBpj+EstrCDx/b8gKRCyIKhR9fVAS/Lv3ByMx/udd1kvOPk+b6obsik46u0LH5b+12iw3WY87+grOgWDaEqxSbVmSLjPTQgX5jpH5M6N9w2LOTtbMqIsPKzxrA9w+qTg9aBIDc8lHSh/NB507++c1v3UYis9a/ZE8zKfHj+5kb+LKpZbVSjLGqSjJxmdUbSRndNYfm3rZVeocIcg5VE1IHcGrc5QW7rMWpoO8m0Aysq2UDBcZeWc2OKK4X+/ZCLhLDeRqtuXjG46X6w4n+6J/BuMvuRAHM1RQ5bUo+c=
