@@ -2,8 +2,7 @@ language: node_js
 node_js:
 - '6.1'
 script:
-- export SLACK_EMOJIPACK='packs/emojis.yaml'
-echo SLACK_EMOJIPACK
+- export SLACK_EMOJIPACK=emojis.yaml
 - node --harmony node_modules/emojipacks/bin/emojipacks
 env:
   global:

@@ -1,6 +1,6 @@
 #!usr/bin/env bash
 
-yaml=node_modules/emojipacks/packs/emojis.yaml
+yaml=emojis.yaml
 
 echo "title: devicon" > $yaml
 echo "emojis:" >> $yaml
