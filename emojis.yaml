@@ -1,36 +1,36 @@
 title: emoji
 emojis:
-  - name: png/blueprint.png
-   src: https://raw.githubusercontent.com/takose/slack_stamp_adder/master/png/png/blueprint.png
-  - name: png/computer.png
-   src: https://raw.githubusercontent.com/takose/slack_stamp_adder/master/png/png/computer.png
-  - name: png/eraser.png
-   src: https://raw.githubusercontent.com/takose/slack_stamp_adder/master/png/png/eraser.png
-  - name: png/esa.png
-   src: https://raw.githubusercontent.com/takose/slack_stamp_adder/master/png/png/esa.png
-  - name: png/github.png
-   src: https://raw.githubusercontent.com/takose/slack_stamp_adder/master/png/png/github.png
-  - name: png/lamp.png
-   src: https://raw.githubusercontent.com/takose/slack_stamp_adder/master/png/png/lamp.png
-  - name: png/laptop.png
-   src: https://raw.githubusercontent.com/takose/slack_stamp_adder/master/png/png/laptop.png
-  - name: png/light-bulb.png
-   src: https://raw.githubusercontent.com/takose/slack_stamp_adder/master/png/png/light-bulb.png
-  - name: png/magic-wand.png
-   src: https://raw.githubusercontent.com/takose/slack_stamp_adder/master/png/png/magic-wand.png
-  - name: png/paint-brush.png
-   src: https://raw.githubusercontent.com/takose/slack_stamp_adder/master/png/png/paint-brush.png
-  - name: png/paint-palette.png
-   src: https://raw.githubusercontent.com/takose/slack_stamp_adder/master/png/png/paint-palette.png
-  - name: png/paint-roll.png
-   src: https://raw.githubusercontent.com/takose/slack_stamp_adder/master/png/png/paint-roll.png
-  - name: png/school-material-1.png
-   src: https://raw.githubusercontent.com/takose/slack_stamp_adder/master/png/png/school-material-1.png
-  - name: png/school-material.png
-   src: https://raw.githubusercontent.com/takose/slack_stamp_adder/master/png/png/school-material.png
-  - name: png/scissors.png
-   src: https://raw.githubusercontent.com/takose/slack_stamp_adder/master/png/png/scissors.png
-  - name: png/tablet.png
-   src: https://raw.githubusercontent.com/takose/slack_stamp_adder/master/png/png/tablet.png
-  - name: png/vector.png
-   src: https://raw.githubusercontent.com/takose/slack_stamp_adder/master/png/png/vector.png
+  - name: blueprint.png
+   src: https://raw.githubusercontent.com/takose/slack_stamp_adder/master/png/blueprint.png
+  - name: computer.png
+   src: https://raw.githubusercontent.com/takose/slack_stamp_adder/master/png/computer.png
+  - name: eraser.png
+   src: https://raw.githubusercontent.com/takose/slack_stamp_adder/master/png/eraser.png
+  - name: esa.png
+   src: https://raw.githubusercontent.com/takose/slack_stamp_adder/master/png/esa.png
+  - name: github.png
+   src: https://raw.githubusercontent.com/takose/slack_stamp_adder/master/png/github.png
+  - name: lamp.png
+   src: https://raw.githubusercontent.com/takose/slack_stamp_adder/master/png/lamp.png
+  - name: laptop.png
+   src: https://raw.githubusercontent.com/takose/slack_stamp_adder/master/png/laptop.png
+  - name: light-bulb.png
+   src: https://raw.githubusercontent.com/takose/slack_stamp_adder/master/png/light-bulb.png
+  - name: magic-wand.png
+   src: https://raw.githubusercontent.com/takose/slack_stamp_adder/master/png/magic-wand.png
+  - name: paint-brush.png
+   src: https://raw.githubusercontent.com/takose/slack_stamp_adder/master/png/paint-brush.png
+  - name: paint-palette.png
+   src: https://raw.githubusercontent.com/takose/slack_stamp_adder/master/png/paint-palette.png
+  - name: paint-roll.png
+   src: https://raw.githubusercontent.com/takose/slack_stamp_adder/master/png/paint-roll.png
+  - name: school-material-1.png
+   src: https://raw.githubusercontent.com/takose/slack_stamp_adder/master/png/school-material-1.png
+  - name: school-material.png
+   src: https://raw.githubusercontent.com/takose/slack_stamp_adder/master/png/school-material.png
+  - name: scissors.png
+   src: https://raw.githubusercontent.com/takose/slack_stamp_adder/master/png/scissors.png
+  - name: tablet.png
+   src: https://raw.githubusercontent.com/takose/slack_stamp_adder/master/png/tablet.png
+  - name: vector.png
+   src: https://raw.githubusercontent.com/takose/slack_stamp_adder/master/png/vector.png
