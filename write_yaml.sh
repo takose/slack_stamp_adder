@@ -7,6 +7,7 @@ echo "emojis:" >> $yaml
 
 for png in png/*.png
 do
-  echo "  - name: ${png##*/}" >> $yaml
-  echo "   src: https://raw.githubusercontent.com/takose/slack_stamp_adder/master/$png" >> $yaml
+  p=$(echo $png | awk -F/ '{ print $NF }'g | awk -F. '{ print $1 }')
+  echo "  - name: $p" >> $yaml
+  echo "    src: https://raw.githubusercontent.com/takose/slack_stamp_adder/master/$png" >> $yaml
 done
