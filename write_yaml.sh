@@ -2,7 +2,7 @@
 
 yaml=emojis.yaml
 
-echo "title: devicon" > $yaml
+echo "title: emoji" > $yaml
 echo "emojis:" >> $yaml
 
 for png in png/*.png
